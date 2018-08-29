@@ -1,0 +1,448 @@
+/*Global CSS START*/
+ *{
+	 margin:0;
+	 padding:0;
+ }
+ body{
+	 overflow-x:hidden;
+	 
+	 margin:0;
+	 scroll-x:none;
+ }
+ .container{
+	 width:100%;
+	 
+	
+ }
+/*Global CSS END*/
+/*Header Section CSS Start Here*/
+header{
+	width:100%;
+	height:auto;
+	float:left;
+	top:0;
+	background-color:#fff;
+	position:fixed;
+	
+}
+.logo-area{
+	padding:20px 50px;
+	
+}
+/*Banner Stection CSS*/
+.banner-section{
+	background-image: url(../image/hero-image.png);
+	background-size:cover;
+	width:100%;
+	height:auto;
+	float:left;
+	
+	
+
+	
+}
+.baner-overlay{
+	text-align:center;
+	padding:120px 0px;
+	
+	
+}
+.baner-overlay h1{
+	color:#fff;
+	font-size:100px;
+	
+	
+}
+.baner-overlay h4{
+	color:#fff;
+}
+.baner-overlay p{
+	color:#fff;
+	border:1px solid #fff;
+	width:100px;
+	margin:0px 48%;
+	margin-top:60px;
+}
+.angle-down{
+	font-size:60px;
+	 color: white;
+	margin:0px 50%;
+	
+	
+	
+}
+.angle-down a{
+	color: white;
+}
+
+/*Service Section CSS Start Here*/
+.service-area{
+	text-align:center;
+	width:100%;
+	height:auto;
+	float:left;
+	padding-bottom:120px;
+	
+}
+.service-heading{ 
+  background-color:#f9f9f6;
+  padding:60px 0px;
+}
+.service-heading h1{
+	margin-bottom:12px;
+	font-size:40px;
+}
+.service-heading p{
+	font-size:15px;
+	color:#a5a5a5;
+	
+}
+.service-details{
+	margin:30px 60px;
+	padding-top:20px;
+}
+
+.service-one{
+	width: 33.333%;
+	margin:0 auto;
+	float:left;
+	
+}
+.service-one img{
+	background-image: url(../image/service-bg.png);
+	padding:30px 40px;
+	
+}
+
+.service-two{
+	
+	width: 33.333%;
+	margin:0 auto;
+	float:left;
+	
+}
+.service-two img{
+	background-image: url(../image/service-bg.png);
+	padding:30px 40px;
+}
+.service-three{
+	
+	width: 33.333%;
+	margin:0 auto;
+	float:left;
+	
+}
+.service-three img{
+	background-image: url(../image/service-bg.png);
+	padding:30px 40px;
+}
+
+
+
+
+/*Service Section CSS End Here*/
+/*Portfolio Section CSS Start Here*/
+.portfolio-area{
+	width:100%;
+	height:auto;
+	float:left;
+	background-color:#F6F9F9;
+	padding: 50px 0px;
+	overflow: hidden;
+	text-align:center;
+	margin: o auto;
+}
+.portfolio-heading{
+	margin-bottom:40px;
+}
+.portfolio-heading h1{
+	font-size:40px;
+}
+.portfolio-heading p{
+	margin-top:10px;
+	font-size:15px;
+	color:#a5a5a5;
+}
+.portfolio-details{
+	margin:0px 170px;
+	text-align:center;
+}
+.portfolio-wrapper{
+	width:350px;
+	float:left;
+}
+.portfolio-wrapper{
+	position:relative;
+	width:100%;
+	max-width:350px;
+	
+}
+.portfolio-wrapper img{
+	width:100%;
+	height:auto;
+}
+.overlay{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	opacity:0;
+	transition: 0.7s ease;
+	background-color:#63b8ff;
+	color:black;
+}
+.portfolio-wrapper{
+	margin:1%;
+	
+}
+
+
+
+.portfolio-wrapper:hover .overlay{
+	opacity: .7;
+}
+.icon{
+	color:white;
+	font-size:40px;
+	position:absolute;
+	top:40%;
+	left:40%;
+	transform: translate(-40%, 40%);
+	-ms-transform: translate(-40%, 40%);
+	text-align:center;
+	
+	
+}
+.overlay:hover{
+	background-color:
+	
+	
+}
+.overlay:hover .icon-1{
+	margin:15px;
+	padding:5px;
+    color:#f2f2f2;
+    border: 1px solid #FFF;
+   
+	
+}
+.overlay:hover .icon-2{
+ color:#f2f2f2;
+ padding: 5px 8px;
+ border: 1px solid #FFF;
+ 
+}
+/*Contact Us Area CSS Start here*/
+
+.contact-us-area{
+	background-image:url(../image/contact-bg.png);
+	background-size:cover;
+	overflow:hidden;
+	text-align:center;
+	width:100%;
+	height:auto;
+	float:left;
+	color:#fff;
+	
+	
+	
+}
+.contact-heading{
+	margin:25px 0px;
+}
+.contact-form{
+	margin-bottom:50px;
+}
+
+input[type="text"] {
+	width:500px;
+	height:30px;
+	padding:5px;
+	font-size:15px;
+	background:transparent;
+	border:none;
+	border-hilight:none;
+	border: 1px solid #f0f0f0;
+	
+}
+
+
+input[type="email"]{
+	width:500px;
+	height:30px;
+	padding:5px;
+	font-size:15px;
+	margin-top:5px;
+	background:transparent;
+	border:none;
+	border: 1px solid #f1f1f1;
+	
+	
+}
+input[type="checkbox"]{
+	margin-left:0px;
+}
+input[type="submit"]{
+	width:80px;
+	margin-left:280px;
+	margin-top:10px;
+	padding:5px;
+	background:transparent;
+	border:none;
+	border:1px solid blue;
+	color:#fff;
+}
+textarea{
+	margin-top:10px;
+	background:transparent;
+	width:508px;
+	border:none;
+	border: 1px solid #f1f1f1;
+	color:grey;
+	
+}
+
+/*Portfolio Section CSS End Here*/
+
+/*Footer Section CSS Start here*/
+.footer-area{
+	width:100%;
+	height:auto;
+	float:left;
+	text-align:center;
+	background-color:#fff;
+	
+}
+.copy-right{ 
+  float:left;
+  width:50%;
+  padding:25px 0px;
+  color:#a5a5a5;
+  
+}
+.social-media-icon{
+  float:right;
+  width:50%;
+  padding-top:16px;
+  padding-bottom:16px;
+}
+.social-media-icon ul{ 
+ 
+ list-style:none;
+}
+.social-media-icon ul li{
+  display:inline-block;	
+}
+.social-media-icon ul li a{ 
+   font-size:15px;
+   padding:10px;
+   line-height:30px;
+   color:#fff;
+}
+.social-media-icon ul li{
+	background-color:#0099ff;
+	 height:30px;
+     width:30px;
+	 
+}
+
+
+	    /*====================================
+          responsive
+      =====================================*/
+	  
+	  @media only screen and (max-width:2000px) {
+     .portfolio-wrapper{
+		width:300px;
+        
+		
+    }
+	
+   
+   }
+	  @media only screen and (max-width:1120px) {
+     .portfolio-wrapper{
+		 width:250px;
+		 
+        
+		
+    }
+   
+   }
+   	  @media only screen and (max-width:965px) {
+     .portfolio-wrapper{
+		 width:350px;
+        
+		
+    }
+   
+   }
+   	  @media only screen and (max-width:765px) {
+     .portfolio-wrapper{
+		 width:180px;
+        
+		
+    }
+   
+   }
+   	  @media only screen and (max-width:455px) {
+     .portfolio-wrapper{
+		 width:300px;
+        
+		
+    }
+   
+   }  	 
+  
+    @media only screen and (max-width:540px) {
+     .service-one{
+		 width:100%;
+        
+		
+    }
+   
+   }
+    @media only screen and (max-width:540px) {
+     .service-two{
+		 width:100%;
+        
+		
+    }
+   
+   }
+    @media only screen and (max-width:540px) {
+     .service-three{
+		 width:100%;
+        
+		
+    }
+   
+   }
+
+
+	
+ 	 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
